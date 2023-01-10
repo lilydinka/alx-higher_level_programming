@@ -1,25 +1,26 @@
-# Inheritance
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about inheritance, superclass, baseclass and subclass in **Python**.
+# 0x0A-python-inheritance :tram:
 
-## Technologies
-* Python Scripts are written with Python 3.4.3
-* C files are compiled using `gcc 4.8.4`
-* Tested on Ubuntu 14.04 LTS
+## Description :light_rail:
 
-## Files
-| Filename | Description |
-| -------- | ----------- |
-| `0-lookup.py` | Function that returns the list of available attributes and methods of an object |
-| `1-my_list.py` | Class `MyList` that inhertis from `list` |
-| `2-is_same_class.py` | Function that returns `True` if the object is exactly an instance of the specified class; otherwise `False` |
-| `3-is_kind_of_class.py` | Function that returns `True` if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class |
-| `4-inherits_from.py` | Function that returns `True` if the object is an instance of a class that inherited from the specified class |
-| `5-base_geometry.py` | Empty class `BaseGeometry` |
-| `6-base_geometry.py` | Class `BaseGeometry` with public instance method `def area(self):` |
-| `7-base_geometry.py` | Class `BaseGeometry` with public instance method that verifies if the input arg is an integer |
-| `8-rectangle.py` | Class `Rectangle` that inhertis from `BaseGeometry` |
-| `9-rectangle.py` | Class `Rectangle` that inhertis from `BaseGeometry`, with `area()` method implemented |
-| `10-square.py` | Class `Square` that inherits from `Rectangle` |
-| `11-square.py` | Class `Square` that inherits from `Rectangle`, with `str()` method |
-| `100-my_int.py` | Class `MyInt` that inhertis from `int`. Its `==` and `!=` operators are inverted |
-| `101-add_attribute.py` | Function that adds a new attribute to an object if it's possible |
+Python project dealing with classes and inheritance.
+
+## Mandatory Tasks :office:
+
+| Files | Description |
+| ----- | ----------- |
+| 0-lookup.py | Function that returns the list of available attributes and methods of an object |
+| 1-my_list.py | Class `MyList` that inherits from `list` |
+| 2-is_same_class.py | Function that returns `True` if the object is exactly an instance of the specified class otherwise it returns `False` |
+| 3-is_kind_of_class.py | Function returns `True` if the object is an instance of or an instance of a class that inherits from the specified class otherwise returns `False` |
+| 4-inherits_from.py | Function returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class otherwise returns `False` |
+| 5-base_geometry.py | Empty class `BaseGeometry` |
+| 6-base_geometry.py | Creates a class `BaseGeometry` with a public instance method `def area(self):` that raises and `Exception` with an error message |
+| 7-base_geometry.py | Updates `BaseGeometry` to add a public instance method `def integer_validator(self, name, value):` that validates the `value` |
+| 8-rectangle.py | Creates a class `Rectangle` that inherits from `BaseGeometry` and instantiates `width` and `height` in the `__init__` method |
+| 9-rectangle.py | Updates class `Rectangle` to implement the `area()` method and `print()` and `str()` methods |
+| 10-square.py | Creates a class `Square` that inherits from `Rectangle` that instantiates the `width` and `height` variables in the `__init__` method and implements the `area()` method |
+| 11-square.py | Updates class `Square` to implement the `print()` and `str()` methods |
+
+## Author :octocat:
+
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
